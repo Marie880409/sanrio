@@ -1,0 +1,203 @@
+body{
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.section_01 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    
+}
+    
+    .header_top {
+        display: flex;
+        position: sticky;
+        top: 0px;
+        flex-flow: row nowrap;
+        width: 100%;
+        min-height: 100px;
+    }
+        .header_logo {
+            display: flex;
+            width: 10%;
+            height: 100px;
+            margin-left: 40px;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .header_menu {
+            display: flex;
+            width: 90%;
+            height: 100px;
+            justify-content: right;
+            align-items: center;
+            
+        }
+            .header_menu > li {
+                width:100px;
+                height: 20px;
+                font-size: 11pt;
+                letter-spacing :1pt;
+                text-align: center;
+                line-height: 20px;
+                margin-right: 70px;
+            }
+
+    /*----------------------------바디 --------------------------------*/
+
+    .section_02 {
+        position: relative;
+        width: 100%;
+        height: auto;
+        
+    }   
+
+        .main_body_01 {
+            position: absolute;
+            display: flex;
+            flex-flow: row wrap;
+            width: 100%;
+            height: auto;
+            z-index: 1;
+            
+        }   
+            .sns {
+                position: fixed;
+                display: flex;
+                flex-flow: column wrap;
+                align-items: end;
+                width: 100%;
+                height: 100px;
+                top: 140px;
+                right: 100px;
+            }
+                .sns > img {
+                
+                    margin-top: 10px;
+                }
+
+            .main_title_img {
+                position: relative;
+                display: flex;
+                width: 1000px;
+                top: 150px;
+                padding: 0;
+                margin: 0 auto;
+                
+            }
+            .mouse_ani {
+                position: relative;
+                display: flex;
+                width: 100%;
+                height: 90px;
+                top: 180px;
+                padding: 20px;
+                justify-content: center;
+                
+            }
+                .mouse {
+                    position: relative;
+                    display: block;
+                    clear: both;
+                    width: 26px;
+                    height: 36px;
+                    border-radius: 20px;
+                    background: white;
+                    border: 2px solid black;
+                    margin: 0 auto;
+                    
+                }
+                    .dot {
+                        position: relative;
+                        width: 26px;
+                        height: 26px;
+                        text-align: center;
+                        line-height: 26px;
+                        font-size: 2.1rem;
+                }
+                .scroll_text {
+                    position: absolute;
+                    display: block;
+                    width: 100%;
+                    font-size: 0.8rem;
+                    top: 80px;
+                    text-align: center;
+                }
+                    
+                
+                .main_title_bg {
+                    position: relative;
+                    width: 100%;
+                    height: 980px;
+                    background: url(/img/main_visual_bg.jpg) repeat 0 0 / 50px;
+
+                }
+
+
+    /*----------------------------캐릭터 소개 --------------------------------*/
+        
+            .main_body_02 {
+                position: absolute;
+                display: flex;
+                flex-flow: row wrap;
+                width: 100%;
+                height: 3000px;
+                
+                
+            }
+                #title {
+                    position: relative;
+                    display: inline-block;
+                    width: 100%;
+                    height: 150px;
+                    line-height: 150px;
+                    font-size: 3.3rem;
+                    text-align: center;
+                    
+                }
+                .view_more {
+                    position: relative;
+                    display: flex;
+                    width: 100%;
+                    height: 100px;
+                    margin: 0 auto;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                    .view_more :hover {
+                        color: white;
+                        background: black;
+                    }
+                    .veiw_icon {
+                        position: relative;
+                        display: inline-block;
+                        width: 250px;
+                        height: 50px;
+                        border: 2px solid black;
+                        border-radius: 30px;
+                        line-height: 50px;
+                        text-align: center;
+                        
+                    }   
+
+                        .veiw_icon > img {
+                            margin-left: 10px;
+                            display: inline-block;
+                            align-items: center;
+                            justify-content: center;
+                            
+                        }
+                        
+                .character_list {
+                    display: flex;
+                    flex-flow: row wrap;
+                    width: 1200px;
+                    height: 2750px;
+                    background: wheat;
+                    margin: 0 auto;
+                    margin-top: 20px;
+                }
