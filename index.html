@@ -4,13 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sanrio Lover Club</title>
+    <style type="text/css" rel="stylesheet">
+
+        body {
+            margin: 0px;
+            padding: 0px;
+            font-size: 11pt;
+            font-family: 'Montserrat', sans-serif;
+        }
+        h1,h2,h3,p,ul {
+            margin: 0;
+            padding: 0;
+        }
+        ul li {
+            list-style: none;
+        }
+        a {
+            text-decoration: none;
+        }
+        
+    </style>
+    
+    <!---------font----------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+
+    <!---------css----------->
+    <link href="./css/index.css" rel="stylesheet">
 </head>
 <body>
+    <!----------------------------헤더-------------------------------->
     <section class="section_01">
         <header>
             <div class="header_top">
                 <div class="header_logo">
-                    <img src="">
+                    <img src="./img/logo_2023.png" width="132px" height="36px">
                 </div>
                 <ul class="header_menu">
                     <li> COMPANY </li>
@@ -21,64 +51,165 @@
             </div>
         </header>
     </section>
-    <section clss="section_02">
+    <!----------------------------바디 -------------------------------->
+    <section class="section_02">
         <div class="main_body_01">
-            <div class="main_title_img">
-                <img src="">
+            <div class="sns">
+                <img src="./img/ins.png" width="40px" height="40px">
+                <img src="./img/ytb.png" width="40px" height="40px">
             </div>
-            <div class="main_title_bg">
-                <img src="">
+            <div class="main_title_img">
+                <img src="./img/main_visual_pc_v1.png" width="1000px">
+            </div>
+            <div class="mouse_ani">
+                <div class="mouse">
+                    <p class="dot"> . </p>
+                </div>
+                <p class="scroll_text"> SCROLL DOWN </p>
             </div>
         </div>
+
+        <div class="main_title_bg">
+            &nbsp;
+        </div>
+    <!------------------------------캐릭터 소개 -------------------------------->
         <div class="main_body_02">
-            <title> CHARACTER </title>
-            <divl class="view_more">
-                VIEW MORE
-            </divl>
+            <title id="title"> CHARACTER </title>
+            <div class="view_more">
+                <div class="veiw_icon">
+                    VIEW MORE
+                    <img src="./img/ico_more1.png">
+                </div>
+            </div>
             <div  class="character_list">
-                <ul class="ch_1st">
-                    <li class="ch_01">
-                        헬로키티
+                <ul class="ch_list">
+                    <li class="item">
+                        <div class="ch_img">
+                            <img id="kitty" src="./img/new_main_crt1.png" width="285px">
+                        </div>
+                        <div class="text_box">
+                            <div class="blank"></div>
+                            <p class=ch_name style="font-weight: 400;"> 헬로키티 </p>
+                            <p class="ch_name_e"> HELLO KITTY </p>
+                        </div>    
                     </li>
-                    <li class="ch_02">
-                        마이멜로디
+                    <li class="item">
+                        <div class="ch_img">
+                            <img id="melody" src="./img/new_main_crt2.png" width="285px">
+                        </div>
+                        <div class="text_box">
+                            <div class="blank"></div>
+                            <p class=ch_name style="font-weight: 400;"> 마이멜로디 </p>
+                            <p class="ch_name_e"> MY MELODY </p>
+                        </div>    
                     </li>
-                    <li class="ch_03">
-                        쿠로미
+                    <li class="item">
+                        <div class="ch_img">
+                            <img id="kuromi" src="./img/new_main_crt3.png" width="285px">
+                        </div>
+                        <div class="text_box">
+                            <div class="blank"></div>
+                            <p class=ch_name style="font-weight: 400;"> 쿠로미 </p>
+                            <p class="ch_name_e"> KUROMI </p>
+                        </div>    
                     </li>
-                    <li class="ch_04">
-                        폼폼푸린
+                    <li class="item">
+                        <div class="ch_img">
+                            <img id="pompom" src="./img/new_main_crt4.png" width="285px">
+                        </div>
+                        <div class="text_box">
+                            <div class="blank"></div>
+                            <p class=ch_name style="font-weight: 400;"> 폼폼푸린 </p>
+                            <p class="ch_name_e"> POMPOMPURIN </p>
+                        </div>
                     </li>
                 </ul>
-                <ul class="ch_2nd">
-                    <li class="ch_05">
-                        시나모롤
+                <ul class="ch_list">
+                    <li class="item">
+                        <div class="ch_img">
+                            <img id="cinamo" src="./img/new_main_crt5.png" width="285px">
+                        </div>
+                        <div class="text_box">
+                            <div class="blank"></div>
+                            <p class=ch_name style="font-weight: 400;"> 시나모롤 </p>
+                            <p class="ch_name_e"> CINNAMOROLL </p>
+                        </div>  
                     </li>
-                    <li class="ch_06">
-                        리틀트윈스타
+                    <li class="item">
+                        <div class="ch_img">
+                            <img id="twin" src="./img/new_main_crt6.png" width="285px">
+                        </div>
+                        <div class="text_box">
+                            <div class="blank"></div>
+                            <p class=ch_name style="font-weight: 400;"> 리틀트윈스타 </p>
+                            <p class="ch_name_e"> LITTLE TWIN STAR </p>
+                        </div>  
                     </li>
-                    <li class="ch_07">
-                        포차코
+                    <li class="item">
+                        <div class="ch_img">
+                            <img id="pocha" src="./img/new_main_crt7.png" width="285px">
+                        </div>
+                        <div class="text_box">
+                            <div class="blank"></div>
+                            <p class=ch_name style="font-weight: 400;"> 포차코 </p>
+                            <p class="ch_name_e"> POCHACCO </p>
+                        </div>  
                     </li>
-                    <li class="ch_08">
-                        케로케로케로피
+                    <li class="item">
+                        <div class="ch_img">
+                            <img id="kero" src="./img/new_main_crt8.png" width="285px">
+                        </div>
+                        <div class="text_box">
+                            <div class="blank"></div>
+                            <p class=ch_name style="font-weight: 400;"> 케로피 </p>
+                            <p class="ch_name_e"> 
+                                KEROKEROKEROPPI </p>
+                        </div>  
                     </li>
                 </ul>
-                <ul class="ch_3rd">
-                    <li class="ch_09">
-                        구데타마
+                <ul class="ch_list">
+                    <li class="item">
+                        <div class="ch_img">
+                            <img id="tama" src="./img/new_main_crt9.png" width="285px">
+                        </div>
+                        <div class="text_box">
+                            <div class="blank"></div>
+                            <p class=ch_name style="font-weight: 400;"> 구데타마 </p>
+                            <p class="ch_name_e"> GEDETAMA </p>
+                        </div>  
                     </li>
-                    <li class="ch_10">
-                        배드바츠마루
+                    <li class="item">
+                        <div class="ch_img">
+                            <img id="bad" src="./img/new_main_crt10.png" width="285px">
+                        </div>
+                        <div class="text_box">
+                            <div class="blank"></div>
+                            <p class=ch_name style="font-weight: 400;"> 배드바츠마루 </p>
+                            <p class="ch_name_e"> BAD BADTZ-MARU </p>
+                        </div>  
                     </li>
-                    <li class="ch_11">
-                        턱시도샘
+                    <li class="item">
+                        <div class="ch_img">
+                            <img id="sam" src="./img/new_main_crt11.png" width="285px">
+                        </div>
+                        <div class="text_box">
+                            <div class="blank"></div>
+                            <p class=ch_name style="font-weight: 400;"> 턱시도샘 </p>
+                            <p class="ch_name_e"> TUXEDOSAM </p>
+                        </div>
                     </li>
-                    <li class="ch_12">
-                        코기뮹
+                    <li class="item">
+                        <div class="ch_img">
+                            <img id="kogi" src="./img/new_main_crt12.png" width="285px">
+                        </div>
+                        <div class="text_box">
+                            <div class="blank"></div>
+                            <p class=ch_name style="font-weight: 400;"> 코기뮹 </p>
+                            <p class="ch_name_e"> COGIMYUN </p>
+                        </div>
                     </li>
                 </ul>
-                <ul class="ch_4th">
+                <ul class="ch_list">
                     <li class="ch_13">
                         딩구리데이즈
                     </li>  
@@ -104,6 +235,30 @@
                 </div>
             </div>
         </div>
+        <div class="place_info">
+            <title> PlACE </title>
+            <p> PLACE MORE </p>
+        </div>
     </section>
+    <footer>
+        <title> CONTACT US </title>
+        <p> VIEW DETAIL </p>
+        <div clas="map">
+            <div class="map_img">
+                <img src="">
+            </div>
+            <div class="map_txt">
+                <p> 서울시 강남구 테헤란로 509, 4층 (삼성동, 엔씨타워1) </p>
+                <p> 509, TEHERANRO, GANGNAM-GU, SEOUL
+                    (4TH FLOOR, SAMSUNG-DONG, NC TOWER 1) </p>
+                <p> M : webmaster@sanriokorea.co.kr
+                    T : +82 (0) 2 543 3810
+                    F : +82 (0) 2 543 2904 </p>    
+            </div>
+        </div>
+        <div class="personal">
+            <p> 개인정보보호 </p>
+        </div>
+    </footer>
 </body>
 </html>
